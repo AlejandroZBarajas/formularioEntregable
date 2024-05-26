@@ -1,0 +1,12 @@
+#login_section {
+    width: 30%;
+    padding-top: 15px;
+    min-height: fit-content;
+    border: 1px #801da7 solid;
+    border-radius:5%;
+    box-shadow: 3px 3px 3px 1px #a54aff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
