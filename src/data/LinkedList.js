@@ -11,7 +11,6 @@ class LinkedList {
         this.size = 0;
     }
 
-    // Inserta un nuevo nodo al final de la lista
     insert(data) {
         const newNode = new Node(data);
 
@@ -28,7 +27,6 @@ class LinkedList {
         this.size++;
     }
 
-    // Imprime la lista enlazada
     print() {
         let current = this.head;
         while (current) {

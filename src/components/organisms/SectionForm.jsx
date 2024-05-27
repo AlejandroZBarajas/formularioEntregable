@@ -26,7 +26,7 @@ function SectionForm() {
             numeroTutor
         };
 
-        // Actualizamos la lista enlazada con el nuevo estudiante
+
         const updatedList = new LinkedList();
         let current = listaEstudiantes.head;
         while (current) {
@@ -46,7 +46,6 @@ function SectionForm() {
             imageAlt: "React Image"
         });
 
-        // Limpiar los campos del formulario
         setNombreAlumno(''); 
         setApellidos(''); 
         setEmail(''); 

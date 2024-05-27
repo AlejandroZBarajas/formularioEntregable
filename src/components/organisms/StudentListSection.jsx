@@ -18,7 +18,7 @@ function IterateNodes({ node }) {
     if (!node) return null;
     return (
         <>
-            <div className="student-record">
+            <div id="student-record">
                 <h2>{node.data.nombreAlumno}</h2>
                 <h2>{node.data.apellidos}</h2>
                 <p>Email: {node.data.email}</p>
